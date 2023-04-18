@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get(
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = ['djangoblog-production.up.railway.app', '0.0.0.0']
-CSRF_TRUSTED_ORIGINS = ['djangoblog-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://djangoblog-production.up.railway.app/']
 
 
 # Application definition
